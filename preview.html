@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>For Isma ❤️</title>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <!-- Intro Screen -->
+  <main id="intro" class="screen intro-screen">
+
+    <div class="intro-glow"></div>
+
+    <div class="intro-content">
+      <div class="tiny-heart">♥</div>
+
+      <p class="eyebrow">A LITTLE SOMETHING FOR YOU</p>
+
+      <h1>Made with <span>love</span></h1>
+
+      <p class="intro-copy">
+        A little surprise made especially for you, Isma.
+      </p>
+
+      <button id="startBtn" class="start-btn" type="button">
+        Start <span>♥</span>
+      </button>
+
+      <p class="sound-note">
+        ♪ Tap Start to begin the surprise with music
+      </p>
+    </div>
+
+  </main>
+
+
+  <!-- Heart Screen -->
+  <main id="heartScreen" class="screen heart-screen" hidden>
+
+    <h2 class="love-message">
+      I LOVE YOU SO MUCH ISMA ❤️
+    </h2>
+
+    <canvas
+      id="heartCanvas"
+      width="800"
+      height="800"
+      aria-label="A heart made from love messages in different languages">
+    </canvas>
+
+    <button
+      id="soundBtn"
+      class="sound-btn"
+      type="button">
+      ♫ Music on
+    </button>
+
+  </main>
+
+
+  <!-- Keep music.mp3 in the same folder as this file -->
+  <audio
+    id="bgMusic"
+    src="./music.mp3"
+    preload="auto"
+    loop>
+  </audio>
+
+  <script src="./script.js"></script>
+
+</body>
+</html>
